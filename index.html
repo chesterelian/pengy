@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <title>PengyTimer</title>
+        <script type="text/javascript" src="scramble.js"></script>
+        <script type="text/javascript" src="wcascrambler.js"></script>
+        <script type="text/javascript" src="help.js"></script>
+        <script type="text/javascript" src="effects.js"></script>
+        <script type="text/javascript" src="rightDiv.js"></script>
+        <script type="text/javascript" src="infobar.js"></script>
+        <script type="text/javascript" src="timer.js"></script>
+        <script type="text/javascript" src="cookies.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    </head>
+    <body onload="init()" onunload="cookies.setCookie()" onkeyup="keyUp(event)" onkeydown="keyDown(event)">
+        <div id="everything">
+            <div id="leftDiv">
+                <div id="main">
+                    <div id="curScramble"></div>
+                    <div id="pengy"></div>
+                    <div id="timerDisplay"></div>
+                    <div id="quickStats"></div>
+                    <div id="sessionTimes"></div>
+                    <div id="infoBar"></div>
+                    <div id="helpMenu"></div>
+                </div>
+            </div>
+            <div id="rightDiv">
+                <div id="allStats"></div>
+                <div id="optionsMenu"></div>
+            </div>
+        </div>
+    </body>
+</html>

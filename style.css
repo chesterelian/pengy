@@ -1,0 +1,179 @@
+a {
+    color: #fffb94;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#everything {
+    font: 9pt/12pt tahoma,sans-serif;
+    width: 480px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+
+#leftDiv {
+    float: left;
+    width: 480px;
+}
+
+#rightDiv {
+    float: left;
+    width: 420px;
+}
+
+#main {
+    padding-top: 5px;
+}
+
+#curScramble, #quickStats, #sessionTimes {
+    padding-right: 10px;
+}
+
+.monospaceFont {
+    font-family: 'andale mono',monospace;
+}
+
+#pengy {
+    float: right;
+    height: 120px;
+    width: 120px;
+}
+
+img[alt="pengy"] {
+    height: 120px;
+    width: 120px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- timerDisplay */
+
+#timerDisplay {
+    font: 50pt/100px tahoma,serif; /* line-height must == height*/
+    text-align: right;
+    height: 100px; /* height + margin-top + margin-bottom = 120px */
+    margin: 10px 0px;
+    width: 340px; /* width + padding-right = 360px */
+    padding-right: 20px;
+}
+
+input#manualInput {
+    font-size: 40pt;
+}
+
+#quickStats{
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- sessionTimes */
+
+#sessionTimes {
+    color: #888888;
+}
+
+.inactiveTime {
+    cursor: crosshair;
+    border: 1px solid transparent;
+}
+
+.inactiveTime:hover {
+    background-color: #fffb94;
+}
+
+.inactiveTime:active {
+    border: 1px solid #ffd940;
+}
+
+.activeTime {
+    cursor: crosshair;
+    color: black;
+    background-color: #fffb94;
+    border: 1px solid transparent;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- messageBar */
+
+#infoBar {
+    clear: left;
+    padding: 1px 5px;
+    width: 420px;
+    margin: 20px auto 0px;
+}
+
+.blank {
+    border: 1px solid transparent;
+}
+
+.activeScramble {
+    text-align: left;
+    border: 1px solid #ffd940;
+    background-color: #fffb94;
+}
+
+.info {
+    text-align: center;
+    border: 1px solid #6982db;
+    background-color: #ddebff;
+}
+
+.error {
+    text-align: center;
+    border: 1px solid red;
+    background-color: #ffcccc;
+}
+
+#helpMenu {
+    margin: 20px auto 20px;
+}
+
+#helpTable {
+    border-collapse: collapse;
+    width: 420px;
+    margin: auto;
+}
+
+.helpLeft, .helpRight {
+    border: 1px solid #ffd940;
+    padding: 1px 5px;
+}
+
+.helpLeft {
+    width: 120px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- allStats, optionsMenu */
+
+#allStats, #optionsMenu {
+}
+
+.writeStats, .writeOptions {
+    padding: 5px 0px 10px 10px;
+    width: 408px;
+    border-left: 2px solid #ffd940;
+    min-height: 196px;
+}
+
+.clearStats, .clearOptions {
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- optionsTable */
+
+#optionsTable {
+    border-collapse: separate;
+    border-spacing: 1px;
+    width: 408px;
+}
+
+.optionsLeft {
+    background-color: #6982db;
+    color: white;
+    padding: 1px 5px;
+    width: 90px;
+}
+
+.optionsRight {
+    background-color: #ddebff;
+    padding: 1px 5px;
+}
